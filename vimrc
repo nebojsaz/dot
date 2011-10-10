@@ -37,15 +37,15 @@ set numberwidth=5
 
 " Colors
 set t_Co=256
-colorscheme desert
+colorscheme inkpot
 set cursorline!
 
 " BufExplorer configuration
 let g:bufExplorerDefaultHelp=0
 let g:bufExplorerShowRelativePath=1
 
-" nnoremap <Left> :echoe "Use h"<CR>
-" nnoremap <Right> :echoe "Use l"<CR>
+nnoremap <Left> :echoe "Use h"<CR>
+nnoremap <Right> :echoe "Use l"<CR>
 nnoremap <Up> :echoe "Use k"<CR>
 nnoremap <Down> :echoe "Use j"<CR>
 
